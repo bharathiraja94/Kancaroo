@@ -1,0 +1,1280 @@
+      @media (min-width: 1920px) {
+
+          .thumb-blogs {
+              height: 1130px !important;
+          }
+
+          .blog-left-col .card-body {
+              padding-bottom: 9rem !important;
+
+          }
+
+          .post-blogs {
+              margin-right: 12rem !important;
+              margin-left: 12rem !important;
+          }
+      }
+
+      @media only screen and (min-width: 1681px) and (max-width: 1919px) {
+          .thumb-blogs {
+              height: 1116px !important;
+
+          }
+
+          .blog-left-col .card-body {
+              padding-bottom: 9rem !important;
+
+          }
+      }
+
+      @media (min-width: 1681px) {
+          .container-fluid {
+              max-width: 1920px;
+              margin: auto !important;
+          }
+
+          .container {
+              max-width: 1700px;
+          }
+
+          .homepage-banner {
+              height: 80vh;
+          }
+
+          .mob-header {
+              padding-top: 3rem !important;
+          }
+
+          .booking-header {
+              padding-top: 0 !important;
+          }
+
+          .banner-sec {
+              margin-top: 3rem !important;
+          }
+
+          .banner-sec h1,
+          .h1 {
+              font-size: 100px;
+              line-height: 80px;
+              margin-bottom: 1rem;
+          }
+
+          .banner-sec span {
+              font-size: 55px;
+          }
+
+          .sub-head {
+              font-size: 2.1rem;
+              line-height: 50px;
+          }
+
+          .banner-sec .card {
+              width: 75%;
+              margin-top: 3rem;
+          }
+
+          .Car-Logos {
+              margin-top: 25px;
+          }
+
+          .sec-icons-box {
+              padding-left: 9rem !important;
+              padding-right: 9rem !important;
+          }
+
+          .truck-image-img {
+              width: 950px;
+              bottom: 0;
+          }
+
+          .banner-sec .card .card-body {
+              padding: 30px 29px;
+          }
+
+          .truck-section .track-para {
+              margin-right: 48rem;
+          }
+
+          .road-img {
+              right: 14rem;
+          }
+
+          .full-img .wp-post-image,
+          .img-fluid {
+              width: 100%;
+              /* height: auto; */
+          }
+
+          .gallery-sec-row .col {
+              padding: 0px 20px;
+          }
+
+
+
+      }
+
+      @media only screen and (min-width: 1480px) and (max-width: 1680px) {
+          .thumb-blogs {
+              height: 967px !important;
+          }
+
+          .blog-left-col .card-body {
+              padding-bottom: 6rem !important;
+
+          }
+
+          .container {
+              max-width: 1450px;
+          }
+
+          .banner-sec {
+              margin-top: 2rem !important;
+
+          }
+
+          .banner-sec h1 {
+              font-size: 91px;
+              line-height: 72px;
+          }
+
+          .banner-sec span {
+              font-size: 50px;
+          }
+
+          .sub-head {
+              font-size: 2rem;
+              line-height: 50px;
+          }
+
+          .banner-sec .card {
+              width: 75%;
+              margin-top: 2rem;
+          }
+
+          .Car-Logos {
+              margin-top: 25px;
+          }
+
+          .sec-icons-box {
+              padding-left: 6rem !important;
+              padding-right: 6rem !important;
+          }
+
+          .road-img {
+              right: 14rem;
+          }
+
+          .full-img .wp-post-image,
+          .img-fluid {
+              width: 100%;
+              height: auto;
+          }
+
+          .gallery-sec-row .col {
+              padding: 0px 20px;
+          }
+
+
+      }
+
+
+      @media only screen and (min-width: 1200px) and (max-width: 1479px) {
+          .container {
+              max-width: 1200px;
+          }
+
+      }
+
+      @media (min-width: 1200px) {
+
+          h1,
+          .h1 {
+              font-size: 80px;
+              font-weight: 800;
+              line-height: 65px;
+
+          }
+
+          h2 {
+              font-size: 48px;
+              font-weight: 800;
+              line-height: 55px;
+
+          }
+
+          .modal-dialog {
+              max-width: 835px;
+          }
+
+          .banner-sec .card .card-body {
+              padding: 25px 20px;
+          }
+
+          .work-banner .para {
+              margin: 1rem 14rem;
+
+          }
+
+          .sec-icons-box {
+              padding-left: 4rem;
+              padding-right: 4rem;
+          }
+
+          .about-para {
+              margin: 1rem 12rem;
+          }
+
+          .gallery-sec-row {
+              margin: 0 4%;
+          }
+
+          .blog-section .img-blog {
+              padding: 0 20px;
+          }
+
+          .footer-section span {
+              font-size: 33px;
+              color: #fff;
+          }
+
+          .select-customer {
+              padding-left: 3rem !important;
+              padding-right: 0 !important;
+          }
+
+          .footer-row .col {
+              padding-left: 2.5rem;
+          }
+
+          .blog-left-col .card-img-top,
+          .blog-right-col .card-img-top {
+              height: auto;
+          }
+
+          .post-section .post,
+          .post-blogs {
+              margin-right: 5rem;
+              margin-left: 5rem;
+          }
+
+
+
+          .blog-left-col {
+              padding-right: 17px;
+          }
+
+          .blog-right-col {
+              padding-left: 17px;
+          }
+
+          .thumb-blogs .post {
+              margin-bottom: 2.2rem;
+          }
+
+          .thumb-blogs {
+              height: 812px;
+              overflow-y: scroll;
+          }
+
+          .thumb-blogs .post-title {
+              margin-right: 23px;
+
+          }
+      }
+
+      @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+
+          h1,
+          .h1 {
+              font-size: 65px;
+              line-height: 60px;
+          }
+
+          .footer-section span {
+              font-size: 23px;
+          }
+
+          p,
+          a {
+              font-size: 14px;
+              line-height: 23px;
+          }
+
+          .btn {
+              font-size: 15px;
+          }
+
+          .logo-image,
+          .logo-img {
+              width: 120px;
+          }
+
+          h5,
+          .subHead,
+          .about-row .card-title {
+              font-size: 17px;
+          }
+
+          .banner-sec .card .card-link,
+          .h5-title {
+              font-size: 17px;
+          }
+
+          .track-para {
+              margin-right: 20rem;
+          }
+
+          .banner-sec span {
+              font-size: 34px;
+          }
+
+          .Car-Logos img {
+              width: 340px;
+          }
+
+          .truck-image-img {
+              width: 510px;
+          }
+
+          .banner-sec .card {
+              width: 69%;
+
+          }
+
+          .details-col .form-label {
+              font-size: 13px;
+          }
+
+          .modal-dialog {
+
+              max-width: 720px;
+          }
+
+          .mapModal-content {
+              padding: 12px;
+              width: 93%;
+          }
+
+          .thumb-blogs {
+              height: 762px;
+              overflow-y: scroll;
+          }
+
+          .blog-left-col .card-body {
+              padding-bottom: 4rem !important;
+
+
+          }
+
+          .blog-text .post {
+              margin: 0 0 1.5em;
+
+          }
+      }
+
+
+      @media (min-width: 992px) {
+
+
+
+
+          .navbar-expand-lg .offcanvas .offcanvas-body {
+              justify-content: end;
+          }
+
+          .mt-10,
+          .mb-10 {
+              margin-top: 100px;
+              margin-bottom: 100px;
+          }
+
+          .pt-10,
+          .pb-10 {
+              padding-top: 100px;
+              padding-bottom: 50px;
+          }
+
+          .pickup-col {
+              margin-top: 85px;
+          }
+
+          .icons-image {
+              width: 490px;
+          }
+
+          .gallery-sec-row .col {
+              padding: 0 20px;
+          }
+
+          .post-thumb-section .card {
+              width: 273px;
+
+          }
+
+      }
+
+      @media only screen and (min-width: 991px) and (max-width: 1024px) {
+          .logo-image {
+              width: 100px;
+          }
+
+          .mapModal-content {
+              padding: 12px;
+              width: 93%;
+          }
+
+          h1,
+          .h1 {
+              font-size: 65px;
+              line-height: 60px;
+          }
+
+          .footer-section span {
+              font-size: 25px;
+          }
+
+          .banner-sec span {
+              font-size: 34px;
+          }
+
+          .Car-Logos img {
+              width: 341px;
+
+          }
+
+          .modal-dialog {
+
+              max-width: 720px;
+          }
+
+          .btn {
+              font-size: 15px;
+          }
+
+          a,
+          p {
+              line-height: 22px;
+              font-size: 14px;
+
+          }
+
+          .post-blogs .card-title {
+              font-size: 13px;
+          }
+
+          .post-blogs .card-text {
+              font-size: 12px;
+          }
+
+          .banner-sec .card {
+              width: 68%;
+
+          }
+
+          .details-col .form-label {
+              font-size: 13px;
+          }
+
+          .truck-image-img {
+              width: 504px;
+          }
+
+          h5,
+          .subHead {
+              font-size: 14px;
+          }
+
+          .pt-10,
+          .pb-10 {
+              padding-top: 50px;
+              padding-bottom: 20px;
+          }
+
+          .track-para {
+              margin-right: 20rem;
+          }
+
+          .logo-img {
+              max-width: 100%;
+              height: auto;
+              width: 120px;
+
+          }
+
+          .about-row .card-title {
+              font-size: 18px;
+          }
+
+          .thumb-blogs {
+              height: 761px;
+              overflow-y: scroll;
+          }
+
+          .blog-left-col .card-body {
+              padding-bottom: 4.5rem !important;
+
+
+          }
+
+          .blog-text .post {
+              margin: 0 0 1.5em;
+
+          }
+
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .mob-header {
+              padding: 5px 0;
+              background-color: #D7000C;
+              max-width: 100%;
+          }
+
+          .about-banner {
+              background-image: none;
+              background-color: #F3F2F2;
+          }
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 990px) {
+
+          .mapModal-content {
+              padding: 12px;
+              width: 93%;
+          }
+
+          .btn {
+              font-size: 15px;
+          }
+
+          a,
+          p,
+          li {
+              line-height: 22px;
+              font-size: 11px;
+          }
+
+          .post-blogs .card-text {
+              font-size: 12px;
+          }
+
+          .post-blogs .card-title {
+              font-size: 13px;
+          }
+
+          .logo-img {
+              width: 100px;
+              height: auto;
+
+          }
+
+          .offcanvas-body {
+              text-align: center;
+          }
+
+          .nav-link:focus:after,
+          .nav-link:hover:after {
+              width: 7%;
+              background: #D7000C;
+          }
+
+          .mob-header {
+              padding: 5px 0;
+              background-color: #D7000C;
+              max-width: 100%;
+          }
+
+          .homepage-banner {
+              background-image: none;
+              background-color: #F3F2F2;
+          }
+
+          .details-col {
+              flex: unset;
+              width: 50%;
+          }
+
+          .banner-sec .card {
+              width: 100%;
+          }
+
+          .modal-dialog {
+              max-width: 720px;
+          }
+
+          .about-banner {
+              background-image: unset;
+          }
+
+          .banner-sec span {
+              font-size: 24px;
+          }
+
+          .details-col .form-label {
+              font-size: 13px;
+          }
+
+          .Car-Logos img {
+              width: 270px;
+              height: fit-content;
+          }
+
+          .roadimage img {
+              width: 150px;
+              height: auto;
+          }
+
+          .bottom-line::before {
+              right: 44px
+          }
+
+          .bottom-line::after {
+              right: 40px;
+          }
+
+          .road-line::before {
+              left: 50px;
+          }
+
+          .road-line::after {
+              left: 53px;
+          }
+
+          .para-top {
+              right: 32px;
+          }
+
+          .sec-para-top {
+              right: 64px;
+
+          }
+
+          .bottom-line-para {
+              right: 16px;
+
+          }
+
+          .para-top,
+          .road-para,
+          .sec-para-top {
+              line-height: 16px;
+          }
+
+          .truck-section {
+              padding: 5rem 0 0 0;
+
+          }
+
+          .truck-image-img {
+              position: unset;
+              margin-top: -9rem;
+
+          }
+
+          .icons-image .card-body {
+              margin-left: 1rem;
+          }
+
+          .gallery-row .col,
+          .gallery-sec-row .col {
+              padding: 10px 10px;
+          }
+
+
+          h5,
+          .subHead,
+          .about-row .card-title {
+              font-size: 13px;
+              line-height: 22px !important;
+
+          }
+
+          .sec-icons-box .card .card-bodys .card-title {
+              line-height: 18px;
+          }
+
+          .sec-icons-box .card-img-top {
+              width: 90px;
+              height: 94px;
+          }
+
+          .pickup-col {
+              margin-top: 6rem;
+          }
+
+          .sec-icons-box .card .card-bodys {
+              padding-top: 20px;
+          }
+
+
+          .custom-border:after {
+              right: -10px;
+              height: 50%;
+          }
+
+          .footer-section a,
+          .footer-section .rights-text {
+              font-size: 12px;
+          }
+
+          .h6 {
+              font-size: 14px;
+          }
+
+          .road-img {
+              height: 315px;
+
+          }
+
+          .blog-row .card .card-text,
+          .card-text-blog-para {
+              font-size: 11px;
+          }
+
+          .thumb-blogs {
+              height: 573px;
+              overflow-y: scroll;
+          }
+
+          .blog-left-col .card-body {
+              padding-bottom: 2rem !important;
+
+          }
+
+          .blog-text {
+              padding: 0 0.5rem;
+          }
+
+          .blog-text .post {
+              margin: 0 0 1em;
+          }
+
+          .blog-row .card .card-body {
+              padding: 0.5rem;
+              padding-bottom: 0;
+          }
+
+          .blog-row .card .card-text {
+              margin-bottom: 0;
+          }
+      }
+
+
+
+      @media (max-width: 767px) {
+
+          .navbar-toggler:focus {
+              box-shadow: unset;
+          }
+
+          .main-mob-logo {
+              margin-left: 10px;
+          }
+
+          .offcanvas-body {
+              text-align: center;
+          }
+
+          .nav-link:focus:after,
+          .nav-link:hover:after {
+              width: 10%
+          }
+
+          .navbar-nav .nav-link.active:after,
+          .navbar-nav .nav-link.show:after {
+              width: 10%;
+              background: #D7000C;
+          }
+
+          .mob-header {
+              background-color: #D7000C;
+              padding: 7px 0;
+              max-width: 100%;
+          }
+
+          .card-text-blog-para,
+          p,
+          li {
+              font-size: 12px;
+              line-height: 20px;
+          }
+
+          .terms-subheading {
+              font-size: 13px !important;
+          }
+
+          .btn {
+              font-size: 14px;
+          }
+
+          .homepage-banner {
+              background-image: none;
+              background-color: #F3F2F2;
+          }
+
+          .logo-image {
+              max-width: 100%;
+          }
+
+          .banner-sec {
+              padding-top: 2.5rem;
+              padding-bottom: 2rem;
+          }
+
+          .banner-sec h1 {
+              text-align: center;
+          }
+
+          h1,
+          .h1 {
+              font-size: 45px;
+          }
+
+          .banner-sec span {
+              font-size: 30px;
+          }
+
+          .banner-sec h5,
+          .subHead {
+              text-align: center;
+              font-size: 14px;
+              line-height: 20px;
+          }
+
+          .details-col {
+              flex: unset;
+              width: 50%;
+          }
+
+          .details-col .form-label {
+              font-size: 12px;
+              line-height: 16px;
+          }
+
+          .banner-sec .card {
+              margin: auto;
+              width: 100%;
+              margin-top: 2rem;
+
+          }
+
+          .go-btn {
+              text-align: end;
+          }
+
+          .go-btn .btn {
+              width: 63px;
+              height: 36px;
+              font-size: 14px;
+          }
+
+          .form-col,
+          #toggleColumn {
+              margin-top: 1.5rem;
+          }
+
+          .payment-col {
+              margin-top: 2rem;
+          }
+
+          .loading img {
+              right: 7%;
+              left: unset;
+          }
+
+          .modal.show .modal-dialog {
+              padding: 9px;
+              margin: 1rem;
+              margin-bottom: 3rem;
+
+          }
+
+          .modal-content {
+              padding: 15px;
+          }
+
+          .banner-sec .card .card-link,
+          .h5-title {
+              font-size: 14px;
+              line-height: 16px;
+          }
+
+          .form-control {
+              font-size: 10px;
+          }
+
+          .form-para {
+              font-size: 12px;
+              line-height: 14px;
+          }
+
+          .form-check-inline {
+              margin-right: 1rem;
+          }
+
+          .mapModal-content {
+              padding: 12px;
+              width: 93%;
+
+          }
+
+          .Car-Logos {
+              flex-direction: column-reverse;
+              text-align: end;
+              gap: 0;
+              margin-top: 2rem;
+              align-items: center;
+          }
+
+          .Car-Logos p {
+              border-right: unset;
+              padding-right: 0;
+              margin-top: 15px;
+          }
+
+          .Car-Logos img {
+              max-width: 100%;
+              height: auto;
+          }
+
+          .roadimage img {
+              margin-bottom: unset;
+          }
+
+          .span-text,
+          .full-form-modal .modal-title {
+              font-size: 14px;
+              line-height: 17px;
+          }
+
+          .track-para {
+              margin-bottom: 2rem;
+          }
+
+          .sec-icons-box .card-img-top {
+              width: 85px;
+              height: 90px;
+          }
+
+          .sec-icons-box .card .card-bodys {
+              padding-top: 15px;
+          }
+
+          .sec-icons-box .card .card-bodys .card-title {
+              font-size: 18px;
+              line-height: 20px;
+          }
+
+          .icon-box-row .col:nth-child(odd) {
+              padding: 4rem 0 0.5rem 0;
+
+          }
+
+          .icon-box-row .col:nth-child(odd):first-child {
+              padding-top: 0;
+          }
+
+          .icon-box-row .col:nth-child(odd):last-child {
+              padding-bottom: 0;
+          }
+
+          .road-line-top::before {
+              right: 90px;
+              top: -66px;
+
+          }
+
+          .road-line-top::after {
+              right: 86px;
+              top: -73px;
+
+
+          }
+
+          .road-line::after {
+              left: 91px;
+              top: 75px;
+
+          }
+
+          .road-line::before {
+              top: 16px;
+              left: 87px;
+              height: 46px;
+          }
+
+          .road-para {
+              top: 94px;
+              z-index: 9;
+              left: 63px;
+              line-height: 14px;
+          }
+
+          .para-top {
+              right: 48px;
+              line-height: 14px;
+              bottom: 155px;
+
+          }
+
+          .sec-road-line-top::before {
+              top: -94px;
+              right: 84px;
+          }
+
+          .sec-road-line-top::after {
+              right: 81px;
+              top: -89px
+          }
+
+          .sec-para-top {
+              bottom: 171px;
+              right: 42px;
+              line-height: 14px;
+          }
+
+          .bottom-line::before {
+              top: 68px;
+              right: 104px;
+              z-index: 9;
+              height: 53px;
+          }
+
+          .bottom-line::after {
+              right: 101px;
+              top: 131px;
+              z-index: 9;
+          }
+
+          .bottom-line-para {
+              top: 143px;
+              right: 76px;
+              z-index: 9;
+              line-height: 14px;
+
+          }
+
+          .h2-heading,
+          .h2-heading-left {
+              font-size: 25px;
+              line-height: 35px;
+              font-weight: 800;
+
+          }
+
+          .post-section .post-header {
+              width: 100%;
+          }
+
+          .h2-heading-left:before {
+              left: 40%;
+              width: 20%;
+
+          }
+
+          .h2-heading:before {
+              left: 40%;
+              width: 17%;
+          }
+
+          .icons-image img {
+              margin-bottom: 20px;
+          }
+
+          .truck-image {
+              text-align: center;
+              padding-bottom: 14rem;
+
+          }
+
+          .truck-image-img {
+              bottom: 0;
+              width: 100%;
+          }
+
+          .truck-section {
+              padding: 3rem 0;
+          }
+
+          .truck-section .icons-image .card-title,
+          .blog-row .card .card-title,
+          .modal-title {
+              font-size: 18px;
+          }
+
+          .gallery-sec-row .col {
+              padding: 5px;
+
+          }
+
+          .road-img {
+              right: 0;
+          }
+
+          .gallery-row,
+          .gallery-sec-row {
+              padding: 0 5px;
+          }
+
+          .gallery-row .col {
+              padding: 5px;
+          }
+
+          .gallery-row img,
+          .gallery-sec-row img {
+
+              width: 100%;
+          }
+
+          .img-blog {
+              margin-top: 10px;
+          }
+
+          .blog-text {
+              padding-bottom: 10px;
+              padding: 0;
+
+          }
+
+          .blog-row .card .card-title {
+              font-size: 16px;
+          }
+
+          .footer-section span {
+              font-size: 15px;
+          }
+
+          .footer-section .h1 {
+              line-height: 54px;
+              margin-bottom: 8px;
+
+          }
+
+          .footer-row .col {
+              padding-bottom: 1rem;
+          }
+
+          /* about page */
+
+
+          .work-banner .para,
+          .about-para {
+              margin: 1rem 0.5rem;
+
+          }
+
+          .about-banner {
+              background-image: none;
+          }
+
+          .about-row-last-para {
+              padding: 0 25px;
+          }
+
+          .booking-nav .nav-link {
+              line-height: 18px;
+          }
+
+
+          /* .entry-content,
+          .entry-footer,
+          .post-navigation {
+              margin: 1.5rem 1rem 0 !important;
+          } */
+
+          .thumb-img img {
+              border-top-left-radius: 15px;
+              border-bottom-left-radius: 0px;
+              border-top-right-radius: 15px;
+              height: 200px;
+              width: 100%;
+
+          }
+
+          .blog-row .card .card-text {
+              font-size: 12px;
+          }
+
+          .blog-title .h2-heading-left {
+              text-align: center;
+          }
+
+          .blog-right-col .h2-heading-left {
+              margin-top: 1rem;
+          }
+
+          .thumb-blogs {
+              width: 100%;
+              overflow-x: auto;
+              white-space: nowrap;
+              display: flex;
+              gap: 1rem;
+          }
+
+          .thumb-blogs .post {
+              margin: 0;
+              /* padding: 0 20px; */
+          }
+
+          .thumb-blogs .card {
+              max-width: 100%;
+          }
+
+          .post-thumb-section .card {
+              width: 275px;
+          }
+
+          .thumb-blog-post .post {
+              width: 100%;
+              flex: unset;
+
+          }
+      }
+
+      @media only screen and (min-width: 400px) and (max-width: 450px) {
+          .truck-image-img {
+              bottom: -22px;
+          }
+      }
+
+      @media only screen and (min-width: 280px) and (max-width: 359px) {
+
+          .Car-Logos img {
+              width: 243px;
+          }
+
+          .mob-header .container-fluid {
+              flex-wrap: unset;
+          }
+
+          .banner-sec h5,
+          .subHead {
+              font-size: 13px;
+
+          }
+
+          .btn-danger {
+              padding: 10px 24px;
+
+          }
+
+          .truck-image-img {
+              bottom: 35px;
+          }
+
+          .Car-Logos p {
+              margin-top: 8px;
+              font-size: 15px;
+
+          }
+
+          .sec-para-top {
+              right: 23px;
+          }
+
+          .payment-col {
+              margin-top: 1.5rem;
+          }
+
+      }

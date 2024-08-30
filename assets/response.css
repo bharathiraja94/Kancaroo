@@ -1,0 +1,1671 @@
+      @media (min-width: 1920px) {
+
+          .road-line-top::before {
+              right: 100px;
+          }
+
+          .road-line-top::after {
+              right: 97px;
+          }
+
+          .para-top {
+              right: 52px;
+
+          }
+
+          .sec-para-top {
+              right: 60px;
+          }
+
+          .road-line::before {
+              left: 88px;
+          }
+
+          .road-line::after {
+              left: 91px;
+          }
+
+          .road-para {
+              top: 155px;
+              left: 55px;
+
+          }
+
+          .bottom-line::before {
+              right: 100px;
+          }
+
+          .bottom-line::after {
+              right: 96px;
+
+          }
+
+          .bottom-line-para {
+              top: 206px;
+              right: 65px;
+
+          }
+
+          .truck-section .track-para {
+              margin-right: 61rem !important;
+          }
+
+          .truck-image-img {
+              width: 1069px !important;
+              bottom: 1.5rem;
+          }
+
+          .icons-image {
+              width: 707px !important;
+
+          }
+
+          .container {
+              max-width: 1700px;
+          }
+
+      }
+
+      @media only screen and (min-width: 1681px) and (max-width: 1919px) {
+
+          .container {
+              max-width: 1500px;
+          }
+
+          .icons-image {
+              width: 593px !important;
+          }
+      }
+
+      @media (min-width: 1681px) {
+
+          .container-fluid {
+              max-width: 1920px;
+              margin: auto !important;
+          }
+
+
+          .mob-header {
+              padding-top: 3rem !important;
+          }
+
+          .booking-header {
+              padding-top: 0 !important;
+          }
+
+          .banner-sec {
+              margin-top: 3rem !important;
+              padding-bottom: 3rem !important;
+          }
+
+          .banner-sec h1,
+          .h1 {
+              font-size: 100px;
+              line-height: 80px;
+              margin-bottom: 1rem;
+          }
+
+          .banner-sec span {
+              font-size: 55px;
+          }
+
+          .sub-head {
+              font-size: 2.1rem;
+              line-height: 50px;
+          }
+
+          .banner-sec .card {
+              width: 75%;
+              margin-top: 3rem;
+          }
+
+          .Car-Logos {
+              margin-top: 35px;
+          }
+
+          .sec-icons-box {
+              padding-left: 9rem !important;
+              padding-right: 9rem !important;
+          }
+
+          .truck-image-img {
+              width: 950px;
+              bottom: 3.5rem;
+
+          }
+
+
+          .banner-sec .card .card-body {
+              padding: 30px 29px;
+          }
+
+          .truck-section .track-para {
+              margin-right: 48rem;
+              margin-bottom: 4rem;
+
+          }
+
+          .road-img {
+              right: 14rem;
+          }
+
+          .img-fluid {
+              width: 100%;
+              height: auto;
+          }
+
+          .gallery-sec-row .col {
+              padding: 0px 20px;
+          }
+
+          .awards-div .col {
+              padding-left: 1.3rem;
+              padding-right: 1.3rem;
+          }
+
+      }
+
+      @media only screen and (min-width: 1480px) and (max-width: 1680px) {
+
+          .container {
+              max-width: 1450px;
+          }
+
+          .banner-sec {
+              margin-top: 2rem !important;
+          }
+
+          .banner-sec h1 {
+              font-size: 91px;
+              line-height: 72px;
+          }
+
+          .banner-sec span {
+              font-size: 50px;
+          }
+
+          .sub-head {
+              font-size: 2rem;
+              line-height: 50px;
+          }
+
+          .banner-sec .card {
+              margin-top: 2rem;
+          }
+
+          .Car-Logos {
+              margin-top: 25px;
+          }
+
+          .sec-icons-box {
+              padding-left: 6rem !important;
+              padding-right: 6rem !important;
+          }
+
+          .truck-image-img {
+              width: 896px !important;
+              bottom: 3rem;
+
+          }
+
+          .icons-image {
+              width: 586px !important;
+
+          }
+
+          .truck-section .track-para {
+              margin-right: 48rem !important;
+              margin-bottom: 4rem;
+
+          }
+
+          .road-img {
+              right: 14rem;
+          }
+
+          .img-fluid {
+              width: 100%;
+              height: auto;
+          }
+
+          .gallery-sec-row .col {
+              padding: 0px 20px;
+          }
+
+
+      }
+
+
+      @media only screen and (min-width: 1360px) and (max-width: 1479px) {
+
+
+          .truck-image-img {
+              width: 795px;
+          }
+
+          .gallery-sec-row .col {
+              padding: 0px 20px;
+          }
+      }
+
+      @media only screen and (min-width: 1200px) and (max-width: 1479px) {
+
+          .container {
+              max-width: 1200px;
+          }
+
+          .truck-section .track-para {
+              margin-right: 33rem;
+              margin-top: 15px;
+              margin-bottom: 50px;
+          }
+      }
+
+      @media only screen and (min-width: 1200px) and (max-width: 1280px) {
+
+          .truck-image-img {
+              width: 687px;
+
+          }
+      }
+
+      @media (min-width: 1200px) {
+
+          h1,
+          .h1 {
+              font-size: 80px;
+              line-height: 65px;
+
+          }
+
+          h2 {
+              font-size: 48px;
+              line-height: 55px;
+
+          }
+
+          .modal-dialog {
+              max-width: 835px;
+          }
+
+          .banner-sec .card .card-body {
+              padding: 25px 20px;
+          }
+
+          .work-banner .para {
+              margin: 1rem 14rem;
+
+          }
+
+          .sec-icons-box {
+              padding-left: 4rem;
+              padding-right: 4rem;
+          }
+
+          .about-para {
+              margin: 1rem 12rem;
+          }
+
+          .gallery-sec-row {
+              margin: 0 4%;
+          }
+
+          .blog-section .img-blog {
+              padding: 0 20px;
+          }
+
+          .footer-section span {
+              font-size: 33px;
+              color: #fff;
+          }
+
+          .select-customer {
+              padding-left: 3rem !important;
+              padding-right: 0 !important;
+          }
+
+          .footer-row .col {
+              padding-left: 2.5rem;
+          }
+
+          .blog-left-col .card-img-top,
+          .blog-right-col .card-img-top {
+              height: auto;
+          }
+
+      }
+
+      @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+
+          p,
+          a {
+              font-size: 14px;
+              line-height: 23px;
+          }
+
+          .btn {
+              font-size: 15px;
+          }
+
+          .logo-image,
+          .logo-img {
+              width: 120px;
+              top: 0;
+          }
+
+          h5,
+          .subHead,
+          .about-row .card-title {
+              font-size: 17px;
+          }
+
+          .banner-sec .card .card-link,
+          .h5-title {
+              font-size: 17px;
+          }
+
+          .track-para {
+              margin-right: 20rem;
+              margin-bottom: 3rem;
+
+          }
+
+          .banner-sec span {
+              font-size: 34px;
+          }
+
+          h1,
+          .h1 {
+              font-size: 65px;
+              line-height: 60px;
+          }
+
+          .footer-section span {
+              font-size: 23px;
+          }
+
+          .Car-Logos img {
+              width: 340px;
+          }
+
+          .truck-image-img {
+              width: 528px;
+              bottom: 4.5rem;
+          }
+
+          .icons-image {
+              width: 465px !important;
+          }
+
+          .banner-sec .card {
+              width: 69%;
+
+          }
+
+          .details-col .form-label {
+              font-size: 13px;
+          }
+
+          .modal-dialog {
+
+              max-width: 720px;
+          }
+
+          .mapModal-content {
+              padding: 12px;
+              width: 93%;
+          }
+
+          .para-top {
+              right: 35px;
+          }
+
+          .sec-para-top {
+              right: 66px;
+          }
+
+          .bottom-line-para {
+              right: 31px;
+          }
+
+          .gallery-sec-row {
+              margin: 0 1.5rem;
+          }
+      }
+
+
+      @media (min-width: 992px) {
+
+
+          .navbar-expand-lg .offcanvas .offcanvas-body {
+              justify-content: end;
+          }
+
+          .mt-10,
+          .mb-10 {
+              margin-top: 100px;
+              margin-bottom: 100px;
+          }
+
+          .pt-10,
+          .pb-10 {
+              padding-top: 100px;
+              padding-bottom: 50px;
+          }
+
+          .pickup-col {
+              margin-top: 85px;
+          }
+
+          .icons-image {
+              width: 490px;
+          }
+
+          .gallery-sec-row .col {
+              padding: 0 20px;
+          }
+
+      }
+
+      @media only screen and (min-width: 991px) and (max-width: 1024px) {
+
+          .logo-image {
+              width: 100px;
+              top: 0;
+          }
+
+          .mapModal-content {
+              padding: 12px;
+              width: 93%;
+          }
+
+          h1,
+          .h1 {
+              font-size: 65px;
+              line-height: 60px;
+          }
+
+          .footer-section span {
+              font-size: 25px;
+          }
+
+          .banner-sec span {
+              font-size: 34px;
+          }
+
+          .Car-Logos img {
+              width: 341px;
+
+          }
+
+          .modal-dialog {
+
+              max-width: 720px;
+          }
+
+          .btn {
+              font-size: 15px;
+          }
+
+          a,
+          p {
+              line-height: 22px;
+              font-size: 13px;
+          }
+
+          .form-para {
+              font-size: 13px;
+          }
+
+          .banner-sec .card {
+              width: 68%;
+
+          }
+
+          .details-col .form-label {
+              font-size: 13px;
+          }
+
+          .truck-image-img {
+              width: 525px;
+              bottom: 2rem;
+          }
+
+          h5,
+          .subHead,
+          .banner-sec .card .card-link,
+          .h5-title {
+              font-size: 14px;
+          }
+
+          .pt-10,
+          .pb-10 {
+              padding-top: 50px;
+              padding-bottom: 20px;
+          }
+
+          .track-para {
+              margin-right: 23rem;
+              margin-bottom: 2rem;
+          }
+
+          .logo-img {
+              max-width: 100%;
+              height: auto;
+              width: 120px;
+
+          }
+
+          .about-row .card-title {
+              font-size: 18px;
+          }
+
+          .icons-image {
+              width: 443px;
+          }
+
+          .road-para {
+              left: 38px
+          }
+
+          .para-top {
+              right: 36px;
+          }
+
+          .sec-para-top {
+              right: 67px;
+          }
+
+          .bottom-line-para {
+              right: 33px
+          }
+
+          .gallery-sec-row {
+              margin: 0 2rem;
+          }
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .mob-header {
+              padding: 5px 0;
+              background-color: #D7000C;
+              max-width: 100%;
+          }
+
+          .homepage-banner {
+              background-image: none;
+              background-color: #F3F2F2;
+          }
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 990px) {
+
+          .mapModal-content {
+              padding: 12px;
+              width: 93%;
+          }
+
+          .btn {
+              font-size: 15px;
+          }
+
+          a,
+          p,
+          li {
+              line-height: 22px;
+              font-size: 12px;
+          }
+
+          .logo-img {
+              width: 100px;
+              height: auto;
+          }
+
+          .offcanvas-body {
+              text-align: center;
+          }
+
+          .nav-link:focus:after,
+          .nav-link:hover:after {
+              width: 7%;
+              background: #D7000C;
+          }
+
+          .mob-header {
+              padding: 5px 0;
+              background-color: #D7000C;
+              max-width: 100%;
+          }
+
+          .homepage-banner {
+              background-image: none;
+              background-color: #F3F2F2;
+          }
+
+          .details-col {
+              flex: unset;
+              width: 50%;
+          }
+
+          .banner-sec .card {
+              width: 100%;
+          }
+
+          .modal-dialog {
+              max-width: 720px;
+          }
+
+          .form-para {
+              font-size: 12px;
+          }
+
+          .about-banner {
+              background-image: unset;
+          }
+
+          .banner-sec span {
+              font-size: 24px;
+          }
+
+          .details-col .form-label,
+          .banner-sec .card .card-link,
+          .h5-title {
+              font-size: 13px;
+          }
+
+          .Car-Logos p {
+              font-size: 12px;
+              line-height: 18px;
+          }
+
+          .Car-Logos img {
+              width: 270px;
+              height: fit-content;
+          }
+
+          .roadimage img {
+              width: 150px;
+              height: auto;
+          }
+
+          .bottom-line::before {
+              right: 44px;
+              height: 70px;
+              top: 63px;
+          }
+
+          .bottom-line::after {
+              right: 40px;
+              top: 143px;
+          }
+
+          .road-line::before {
+              left: 50px;
+              height: 70px;
+
+          }
+
+          .road-line::after {
+              left: 53px;
+              top: 115px;
+
+          }
+
+          .road-line-top::before {
+              top: -70px;
+              height: 70px;
+          }
+
+          .road-line-top::after {
+              top: -76px;
+
+          }
+
+          .sec-road-line-top::before {
+              top: -85px;
+              height: 70px
+          }
+
+          .sec-road-line-top::after {
+              top: -79px
+          }
+
+          .para-top {
+              right: 32px;
+              bottom: 161px;
+
+          }
+
+          .road-para {
+              top: 131px;
+          }
+
+          .sec-para-top {
+              right: 72px;
+              bottom: 161px;
+
+          }
+
+          .bottom-line-para {
+              right: 15px;
+              top: 154px;
+
+          }
+
+          .para-top,
+          .road-para,
+          .sec-para-top {
+              line-height: 16px;
+
+          }
+
+          .truck-section {
+              padding: 5rem 0 1rem 0;
+          }
+
+          .truck-image .container {
+              padding: 0;
+          }
+
+          .truck-image-img {
+              bottom: 2rem;
+              width: 407px;
+
+          }
+
+          .track-para {
+              margin-right: 14rem;
+          }
+
+          .icons-image {
+              width: 54%;
+          }
+
+          .icons-image img {
+              width: 40px;
+              height: auto;
+          }
+
+          .icons-image .card-title {
+              margin-bottom: 0 !important;
+          }
+
+          .icons-image .card-body {
+              margin-left: 1rem;
+          }
+
+          .gallery-row .col,
+          .gallery-sec-row .col {
+              padding: 10px 10px;
+          }
+
+          h5,
+          .subHead,
+          .about-row .card-title {
+              font-size: 13px;
+              line-height: 22px !important;
+
+          }
+
+          .sec-icons-box .card .card-bodys .card-title {
+              line-height: 18px !important;
+          }
+
+          .sec-icons-box .card-img-top {
+              width: 90px;
+              height: 94px;
+          }
+
+          .pickup-col {
+              margin-top: 6rem;
+          }
+
+          .sec-icons-box .card .card-bodys {
+              padding-top: 20px;
+          }
+
+          .custom-border:after {
+              right: -10px;
+              height: 50%;
+          }
+
+          .footer-section a,
+          .footer-section .rights-text {
+              font-size: 12px;
+          }
+
+          .h6 {
+              font-size: 14px;
+          }
+
+          .road-img {
+              height: 315px;
+
+          }
+
+          .gallery-sec-row {
+              margin: 0 1rem;
+          }
+
+      }
+
+
+
+      @media (max-width: 767px) {
+
+          .navbar-toggler:focus {
+              box-shadow: unset;
+          }
+
+          .main-mob-logo {
+              margin-left: 10px;
+          }
+
+          .offcanvas-body {
+              text-align: center;
+          }
+
+          .nav-link:focus:after,
+          .nav-link:hover:after {
+              width: 10%
+          }
+
+          .navbar-nav .nav-link.active:after,
+          .navbar-nav .nav-link.show:after {
+              width: 10%;
+              background: #D7000C;
+          }
+
+          .mob-header {
+              background-color: #D7000C;
+              padding: 7px 0;
+              max-width: 100%;
+          }
+
+          p,
+          li {
+              font-size: 12px;
+              line-height: 20px;
+          }
+
+          .terms-subheading {
+              font-size: 13px !important;
+          }
+
+          .btn {
+              font-size: 14px;
+          }
+
+          .homepage-banner {
+              background-image: none;
+              background-color: #F3F2F2;
+          }
+
+          .logo-image {
+              max-width: 100%;
+          }
+
+          .banner-sec {
+              padding-top: 2.5rem;
+              padding-bottom: 2rem;
+          }
+
+
+          .banner-sec h1 {
+              text-align: center;
+
+          }
+
+          h1,
+          .h1 {
+              font-size: 45px;
+          }
+
+          .banner-sec span {
+              font-size: 28px;
+
+          }
+
+          .banner-sec h5,
+          .subHead {
+              text-align: center;
+              font-size: 14px;
+              line-height: 20px;
+          }
+
+          .details-col {
+              flex: unset;
+              width: 50%;
+          }
+
+          .details-col .form-label {
+              font-size: 12px;
+              line-height: 16px;
+          }
+
+          .banner-sec .card {
+              margin: auto;
+              width: 100%;
+              margin-top: 2rem;
+
+          }
+
+          .go-btn {
+              text-align: end;
+          }
+
+          .go-btn .btn {
+              width: 63px;
+              height: 36px;
+              font-size: 14px;
+          }
+
+          .form-col,
+          #toggleColumn {
+              margin-top: 1.5rem;
+          }
+
+          .payment-col {
+              margin-top: 2rem;
+          }
+
+          .loading img {
+              right: 7%;
+              left: unset;
+          }
+
+          .modal.show .modal-dialog {
+              padding: 9px;
+              margin: 1rem;
+              margin-bottom: 3rem;
+
+          }
+
+          .modal-content {
+              padding: 15px;
+          }
+
+          .banner-sec .card .card-link,
+          .h5-title {
+              font-size: 14px;
+              line-height: 16px;
+          }
+
+          .details-col .form-control::placeholder {
+              font-size: 10px;
+          }
+
+          .form-para {
+              font-size: 12px;
+              line-height: 14px;
+          }
+
+          .form-check-inline {
+              margin-right: 1rem;
+          }
+
+          .mapModal-content {
+              padding: 12px;
+              width: 93%;
+
+          }
+
+          #clear_btn,
+          .map-submit {
+              padding: 8px 15px;
+          }
+
+          .Car-Logos {
+              flex-direction: column-reverse;
+              text-align: end;
+              gap: 0;
+              margin-top: 2rem;
+              align-items: center;
+          }
+
+          .Car-Logos p {
+              border-right: unset;
+              padding-right: 0;
+              margin-top: 15px;
+          }
+
+          .Car-Logos img {
+              max-width: 100%;
+              height: auto;
+          }
+
+          .roadimage img {
+              margin-bottom: unset;
+          }
+
+          .span-text,
+          .full-form-modal .modal-title {
+              font-size: 14px;
+              line-height: 17px;
+          }
+
+          .track-para {
+              margin-bottom: 2rem;
+          }
+
+          .sec-icons-box .card-img-top {
+              width: 85px;
+              height: 90px;
+          }
+
+          .sec-icons-box .card .card-bodys {
+              padding-top: 15px;
+          }
+
+          .sec-icons-box .card .card-bodys .card-title {
+              font-size: 18px;
+              line-height: 20px;
+          }
+
+          .icon-box-row .col:nth-child(odd) {
+              padding: 4rem 0 0.5rem 0;
+
+          }
+
+          .icon-box-row .col:nth-child(odd):first-child {
+              padding-top: 0;
+          }
+
+          .icon-box-row .col:nth-child(odd):last-child {
+              padding-bottom: 0;
+          }
+
+          .road-line-top::before {
+              right: 90px;
+              top: -66px;
+
+          }
+
+          .road-line-top::after {
+              right: 86px;
+              top: -73px;
+
+
+          }
+
+          .road-line::after {
+              left: 91px;
+              top: 75px;
+
+          }
+
+          .road-line::before {
+              top: 16px;
+              left: 87px;
+              height: 46px;
+          }
+
+          .road-para {
+              top: 94px;
+              z-index: 9;
+              left: 63px;
+              line-height: 14px;
+          }
+
+          .para-top {
+              right: 48px;
+              line-height: 14px;
+              bottom: 155px;
+
+          }
+
+          .sec-road-line-top::before {
+              top: -94px;
+              right: 84px;
+          }
+
+          .sec-road-line-top::after {
+              right: 81px;
+              top: -89px
+          }
+
+          .sec-para-top {
+              bottom: 171px;
+              right: 42px;
+              line-height: 14px;
+          }
+
+          .bottom-line::before {
+              top: 68px;
+              right: 104px;
+              z-index: 9;
+              height: 53px;
+          }
+
+          .bottom-line::after {
+              right: 101px;
+              top: 131px;
+              z-index: 9;
+          }
+
+          .bottom-line-para {
+              top: 143px;
+              right: 76px;
+              z-index: 9;
+              line-height: 14px;
+
+          }
+
+          .h2-heading,
+          .h2-heading-left {
+              font-size: 30px;
+              line-height: 35px;
+          }
+
+          .h2-heading-left:before {
+              left: 40%;
+              width: 20%;
+          }
+
+          .h2-heading:before {
+              left: 40%;
+              width: 17%;
+          }
+
+          .icons-image img {
+              margin-bottom: 20px;
+          }
+
+          .truck-image {
+              text-align: center;
+              padding-bottom: 14rem;
+
+          }
+
+          .truck-image-img {
+              bottom: 2rem;
+              width: 100%;
+          }
+
+          .truck-section {
+              padding: 3rem 0;
+          }
+
+          .truck-section .icons-image .card-title,
+          .blog-row .card .card-title,
+          .modal-title {
+              font-size: 18px;
+          }
+
+          .gallery-sec-row .col {
+              padding: 5px;
+
+          }
+
+          .road-img {
+              right: 0;
+          }
+
+          .gallery-row,
+          .gallery-sec-row {
+              padding: 0 5px;
+          }
+
+          .gallery-row .col {
+              padding: 5px;
+          }
+
+          .gallery-row img,
+          .gallery-sec-row img {
+
+              width: 100%;
+          }
+
+          .img-blog {
+              margin-top: 10px;
+          }
+
+          .blog-text {
+              text-align: center;
+              padding-bottom: 10px;
+
+          }
+
+          .blog-row .card .card-title {
+              font-size: 16px;
+          }
+
+          .footer-section span {
+              font-size: 14px;
+          }
+
+          .footer-section .h1 {
+              line-height: 50px;
+              margin-bottom: 8px;
+
+          }
+
+          .footer-row .col {
+              padding-bottom: 1rem;
+          }
+
+          /* about page */
+
+
+          .work-banner .para,
+          .about-para {
+              margin: 1rem 0.5rem;
+
+          }
+
+          .about-banner {
+              background-image: none;
+          }
+
+          .about-row-last-para {
+              padding: 0 25px;
+          }
+
+          .booking-nav .nav-link {
+              line-height: 18px;
+          }
+
+
+          /* contact us page */
+
+          .contact-form-section {
+              padding: 3rem 1rem;
+
+          }
+
+          .contact-page-submit {
+              padding: 0.7rem 2.6rem;
+          }
+
+          .custom-border:after,
+          .custom-border:before {
+              display: none;
+          }
+
+          .success-container .card-body {
+              padding: 0;
+          }
+
+          .success-container .card {
+              padding: 1rem;
+          }
+
+          /* service page */
+
+          .service-row .card {
+              padding: 1.5rem;
+          }
+
+          .blog-left-col .card-img-top {
+              height: auto;
+          }
+
+          /* branches */
+
+          .branch-heading {
+              padding-top: 10px;
+              margin-bottom: 0.5rem;
+
+          }
+
+          .br-inline-div {
+              padding: 1rem
+          }
+
+          .loc-div {
+              padding-top: 2.9rem;
+              padding-bottom: 1rem;
+          }
+
+          .mdu-div {
+              padding-top: 2rem;
+          }
+
+          .pune-div {
+              padding-top: 2.5rem;
+          }
+
+          .ban-del-div {
+              padding-top: 1.4rem;
+          }
+
+          .del-div {
+              padding-top: 1.6rem;
+          }
+
+          .trichy-div {
+              padding-top: 2.2rem;
+          }
+
+      }
+
+
+
+      @media only screen and (min-width: 280px) and (max-width: 359px) {
+
+          .Car-Logos img {
+              width: 243px;
+          }
+
+          .mob-header .container-fluid {
+              flex-wrap: unset;
+          }
+
+          .banner-sec h5,
+          .subHead {
+              font-size: 13px;
+
+          }
+
+          .btn-danger {
+              padding: 10px 24px;
+
+          }
+
+          .Car-Logos p {
+              margin-top: 8px;
+              font-size: 15px;
+
+          }
+
+          .sec-para-top {
+              right: 23px;
+          }
+
+          .sec-road-line-top::before {
+              right: 67px;
+          }
+
+          .sec-road-line-top::after {
+              right: 64px;
+          }
+
+          .bottom-line-para {
+              right: 37px;
+              top: 140px;
+          }
+
+          .bottom-line::before {
+              right: 70px;
+              top: 61px;
+
+          }
+
+          .bottom-line::after {
+              right: 66px;
+              top: 124px;
+
+          }
+
+          .para-top {
+              right: 31px;
+              bottom: 157px;
+
+          }
+
+          .road-line-top::before {
+              right: 73px;
+              top: -71px;
+          }
+
+          .road-line-top::after {
+              right: 70px;
+              top: -77px;
+
+          }
+
+          .road-line::before {
+              top: 34px;
+              left: 61px;
+              height: 57px;
+          }
+
+          .road-line::after {
+              left: 65px;
+              top: 98px;
+          }
+
+          .road-para {
+              top: 114px;
+              left: 36px;
+          }
+
+          .sec-para-top {
+              bottom: 171px;
+          }
+
+          .payment-col {
+              margin-top: 1.5rem;
+          }
+
+          .details-col .form-control::placeholder {
+              font-size: 9px;
+          }
+
+      }
+
+      @media only screen and (min-width: 280px) and (max-width: 300px) {
+
+          .truck-image {
+              padding-bottom: 10rem;
+          }
+      }
+
+      @media only screen and (min-width: 301px) and (max-width: 340px) {
+
+          .truck-image {
+              padding-bottom: 12rem;
+
+          }
+      }
+
+      @media only screen and (min-width: 360px) and (max-width: 371px) {
+
+          .details-col .form-control::placeholder {
+              font-size: 9px;
+          }
+      }
+
+
+      @media only screen and (min-width: 390px) and (max-width: 425px) {
+
+          .icons-image {
+              padding: 0 15px;
+          }
+
+          .truck-image-img {
+              bottom: 0rem;
+
+          }
+          .vedio-section{
+            padding-top: 2rem !important;
+            background-color: #F3F2F2;
+          }
+
+      }
+
+      @media only screen and (min-width: 450px) and (max-width: 499px) {
+
+          .sec-road-line-top::before {
+              right: 117px;
+          }
+
+          .sec-road-line-top::after {
+              right: 114px;
+          }
+
+          .sec-para-top {
+              right: 72px;
+          }
+
+          .road-line::before {
+              left: 114px;
+          }
+
+          .road-line::after {
+              left: 117px;
+          }
+
+          .road-para {
+              left: 91px;
+          }
+
+          .road-line-top::before {
+              right: 115px;
+          }
+
+          .road-line-top::after {
+              right: 112px;
+          }
+
+          .para-top {
+              right: 68px;
+          }
+
+          .bottom-line::before {
+              right: 121px;
+
+          }
+
+          .bottom-line::after {
+              right: 117px;
+          }
+
+          .bottom-line-para {
+              right: 93px;
+          }
+      }
+
+      @media only screen and (min-width: 426px) and (max-width: 499px) {
+
+          .truck-section {
+              padding-bottom: 7rem;
+
+          }
+      }
+
+      @media only screen and (min-width: 426px) and (max-width: 450px) {
+
+          .truck-image-img {
+              bottom: 2rem;
+
+          }
+      }
+
+      @media only screen and (min-width: 486px) and (max-width: 500px) {
+
+          .truck-image-img {
+              bottom: 1rem;
+
+          }
+      }
+
+      @media only screen and (min-width: 501px) and (max-width: 540px) {
+
+          .truck-image-img {
+              bottom: 1rem;
+
+          }
+
+          .truck-image {
+              padding-bottom: 20rem;
+          }
+      }
+
+      @media only screen and (min-width: 541px) and (max-width: 600px) {
+
+          .truck-image-img {
+              bottom: 0rem;
+
+          }
+
+          .truck-image {
+              padding-bottom: 21rem;
+          }
+      }
+
+
+      @media only screen and (min-width: 500px)and (max-width:767px) {
+
+          .road-line::before {
+              top: 3px;
+              left: 161px;
+              height: 60px;
+          }
+
+          .road-line::after {
+              left: 164px;
+              top: 69px;
+          }
+
+          .road-para {
+              top: 85px;
+              left: 142px;
+
+          }
+
+          .road-line-top::before {
+              right: 165px;
+              top: -74px;
+
+          }
+
+          .road-line-top::after {
+              right: 162px;
+              top: -74px;
+
+          }
+
+          .para-top {
+              right: 132px;
+
+          }
+
+          .sec-road-line-top::after {
+              right: 159px;
+          }
+
+          .sec-road-line-top::before {
+              right: 162px;
+          }
+
+          .sec-para-top {
+              right: 123px;
+          }
+
+          .bottom-line::before {
+              right: 172px;
+          }
+
+          .bottom-line::after {
+              right: 169px;
+          }
+
+          .bottom-line-para {
+              right: 149px;
+
+          }
+
+      }
+
+      @media only screen and (min-width: 601px) and (max-width: 639px) {
+
+          .truck-image {
+              padding-bottom: 24rem;
+          }
+      }
+
+      @media only screen and (min-width: 640px) and (max-width: 675px) {
+
+          .truck-image {
+              padding-bottom: 27rem;
+          }
+      }
+
+      @media only screen and (min-width: 676px) and (max-width: 767px) {
+
+          .truck-image {
+              padding-bottom: 29rem;
+
+          }
+      }
