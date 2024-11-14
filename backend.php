@@ -6,28 +6,28 @@ require_once 'functions.php';
 
 date_default_timezone_set('Asia/Kolkata');
 
-$currentDateTime = date('Y-m-d H:i:s'); // Format the date and time
+$created_on = date('Y-m-d H:i:s'); // Format the date and time
 
 
 if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
-    $visitor_ip = $_SERVER['HTTP_CF_CONNECTING_IP'];
+    $ipaddress = $_SERVER['HTTP_CF_CONNECTING_IP'];
 } else {
-    $visitor_ip = "00.00.000.00";
+    $ipaddress = "00.00.000.00";
 }
 
 if (isset($_SERVER['HTTP_CF_IPCOUNTRY'])) {
-    $visitor_country = $_SERVER['HTTP_CF_IPCOUNTRY'];
+    $ipcountry = $_SERVER['HTTP_CF_IPCOUNTRY'];
 } else {
-    $visitor_country = "00";
+    $ipcountry = "00";
 }
 
 if (isset($_POST['section'])) {
 
     if ($_POST['section'] == 'initial_data_insert' || $_POST['section'] == 'full_data_insert') {
         $name = mysqli_real_escape_string($conn, $_POST['name']);
-        $mobile_no = mysqli_real_escape_string($conn, $_POST['mobile_no']);
-        $pickup_location = mysqli_real_escape_string($conn, $_POST['pickup_location']);
-        $delivery_location = mysqli_real_escape_string($conn, $_POST['delivery_location']);
+        $mobile = mysqli_real_escape_string($conn, $_POST['mobile']);
+        $pickuplocation = mysqli_real_escape_string($conn, $_POST['pickuplocation']);
+        $deliverylocation = mysqli_real_escape_string($conn, $_POST['deliverylocation']);
     }
 
     if ($_POST['section'] == 'initial_data_insert') {
@@ -38,7 +38,7 @@ if (isset($_POST['section'])) {
         $utmTerm = $_POST['utm_term'];
         $utmContent = $_POST['utm_content'];
 
-        $sql = "INSERT INTO enquiries_form ( name, mobile_no, pickup_location, delivery_location, utm_campaign, utm_source, utm_medium, utm_term, utm_content, ipaddress, ipcountry, created_on) VALUES ('{$name}', '{$mobile_no}', '{$pickup_location}', '{$delivery_location}', '{$utmCampaign}', '{$utmSource}', '{$utmMedium}', '{$utmTerm}', '{$utmContent}','{$visitor_ip}','{$visitor_country}','{$currentDateTime}')";
+        $sql = "INSERT INTO enquiries_form ( name, mobile, pickuplocation, deliverylocation, utm_campaign, utm_source, utm_medium, utm_term, utm_content, ipaddress, ipcountry, created_on) VALUES ('{$name}', '{$mobile}', '{$pickuplocation}', '{$deliverylocation}', '{$utmCampaign}', '{$utmSource}', '{$utmMedium}', '{$utmTerm}', '{$utmContent}','{$ipaddress}','{$ipcountry}','{$created_on}')";
 
         if (mysqli_query($conn, $sql)) {
             $last_inserted_id = mysqli_insert_id($conn);
@@ -73,15 +73,15 @@ if (isset($_POST['section'])) {
                             </tr>
                             <tr>  
                             <th>Mobile Number</th>
-                            <td>' . $mobile_no . '</td>
+                            <td>' . $mobile . '</td>
                             </tr>
                             <tr>  
                             <th>Pickup Location</th>
-                            <td>' . $pickup_location . '</td>
+                            <td>' . $pickuplocation . '</td>
                             </tr>
                             <tr>  
                             <th>Delivery Location</th>
-                            <td>' . $delivery_location . '</td>
+                            <td>' . $deliverylocation . '</td>
                             </tr>
                                 
                             </table>
@@ -90,7 +90,7 @@ if (isset($_POST['section'])) {
             // $mail = send_mail('sathish.jc@kartwheelconsulting.com', $subject, $message);
 
             $data = [
-                'admin_email' => 'bharathikinkwc@gmail.com',
+                // 'admin_email' => 'bharathikinkwc@gmail.com',
                 // 'admin_email' => 'sathish.jc@kartwheelconsulting.com',
                 'admin_subject' => $subject,
                 'admin_message' => $message
@@ -113,21 +113,21 @@ if (isset($_POST['section'])) {
         $email = mysqli_real_escape_string($conn, $_POST['email']);
         $payment_type = mysqli_real_escape_string($conn, $_POST['payment_type']);
         $company_name = mysqli_real_escape_string($conn, $_POST['company_name']);
-        $company_payment_type = mysqli_real_escape_string($conn, $_POST['company_payment_type']);
-        $car_number = mysqli_real_escape_string($conn, $_POST['car_number']);
-        $car_make = mysqli_real_escape_string($conn, $_POST['car_make']);
-        $car_model = mysqli_real_escape_string($conn, $_POST['car_model']);
-        $body_type = mysqli_real_escape_string($conn, $_POST['body_type']);
-        $car_color = mysqli_real_escape_string($conn, $_POST['car_color']);
-        $chassis_no = mysqli_real_escape_string($conn, $_POST['chassis_no']);
-        $engine_no = mysqli_real_escape_string($conn, $_POST['engine_no']);
-        $policy_no = mysqli_real_escape_string($conn, $_POST['policy_no']);
+        $bill_status = mysqli_real_escape_string($conn, $_POST['bill_status']);
+        $carno = mysqli_real_escape_string($conn, $_POST['carno']);
+        $carmake = mysqli_real_escape_string($conn, $_POST['carmake']);
+        $carmodel = mysqli_real_escape_string($conn, $_POST['carmodel']);
+        $cartype = mysqli_real_escape_string($conn, $_POST['cartype']);
+        $carcolour = mysqli_real_escape_string($conn, $_POST['carcolour']);
+        $chasisno = mysqli_real_escape_string($conn, $_POST['chasisno']);
+        $engineno = mysqli_real_escape_string($conn, $_POST['engineno']);
+        $insurance_no = mysqli_real_escape_string($conn, $_POST['insurance_no']);
         $insurance_company = mysqli_real_escape_string($conn, $_POST['insurance_company']);
-        $pickup_geo_location = mysqli_real_escape_string($conn, $_POST['pickup_geo_location']);
-        $delivery_geo_location = mysqli_real_escape_string($conn, $_POST['delivery_geo_location']);
-        $pickup_date = mysqli_real_escape_string($conn, $_POST['pickup_date']);
+        $pickuplocation_latlon = mysqli_real_escape_string($conn, $_POST['pickuplocation_latlon']);
+        $deliverylocation_latlon = mysqli_real_escape_string($conn, $_POST['deliverylocation_latlon']);
+        $pickuptime = mysqli_real_escape_string($conn, $_POST['pickuptime']);
 
-        $sql = "UPDATE enquiries_form SET email = '{$email}',payment_type = '{$payment_type}', company_name = '{$company_name}', company_payment_type = '{$company_payment_type}',  car_number = '{$car_number}',car_make ='{$car_make}', car_model ='{$car_model}',body_type ='{$body_type}',car_color = '{$car_color}',chassis_no ='{$chassis_no}',engine_no ='{$engine_no}',policy_no ='{$policy_no}',insurance_company ='{$insurance_company}',pickup_geo_location ='{$pickup_geo_location}',delivery_geo_location ='{$delivery_geo_location}',pickup_date ='{$pickup_date}' WHERE id = {$insert_id}";
+        $sql = "UPDATE enquiries_form SET email = '{$email}',payment_type = '{$payment_type}', company_name = '{$company_name}', bill_status = '{$bill_status}',  carno = '{$carno}',carmake ='{$carmake}', carmodel ='{$carmodel}',cartype ='{$cartype}',carcolour = '{$carcolour}',chasisno ='{$chasisno}',engineno ='{$engineno}',insurance_no ='{$insurance_no}',insurance_company ='{$insurance_company}',pickuplocation_latlon ='{$pickuplocation_latlon}',deliverylocation_latlon ='{$deliverylocation_latlon}',pickuptime ='{$pickuptime}' WHERE id = {$insert_id}";
 
         if (mysqli_query($conn, $sql)) {
 
@@ -163,15 +163,15 @@ if (isset($_POST['section'])) {
                             </tr>
                             <tr>
                             <th>Phone</th>
-                            <td>' . $mobile_no . '</td>
+                            <td>' . $mobile . '</td>
                             </tr>
                             <tr>
                             <th>Pickup Location</th>
-                            <td>' . $pickup_location . '</td>
+                            <td>' . $pickuplocation . '</td>
                             </tr>
                             <tr>
                             <th>Delivery Location</th>
-                            <td>' . $delivery_location . '</td>
+                            <td>' . $deliverylocation . '</td>
                             </tr>
                             <tr>
                             <th>Email</th>
@@ -191,23 +191,23 @@ if (isset($_POST['section'])) {
                             </tr>
                             <tr>
                             <th>Car Number</th>
-                            <td>' . $car_number . '</td>
+                            <td>' . $carno . '</td>
                             </tr>
                             <tr>
                             <th>Car Make</th>
-                            <td>' . $car_make . '</td>
+                            <td>' . $carmake . '</td>
                             </tr>
                             <tr>
                             <th>Car Model</th>
-                            <td>' . $car_model . '</td>
+                            <td>' . $carmodel . '</td>
                             </tr>
                             <tr>
                             <th>Body Type</th>
-                            <td>' . $body_type . '</td>
+                            <td>' . $cartype . '</td>
                             </tr>
                             <tr>
                             <th>Car Color</th>
-                            <td>' . $car_color . '</td>
+                            <td>' . $carcolour . '</td>
                             </tr>
                             <tr>
                             <th>Chassis No</th>
@@ -215,11 +215,11 @@ if (isset($_POST['section'])) {
                             </tr>
                             <tr>
                             <th>Engine No</th>
-                            <td>' . $engine_no . '</td>
+                            <td>' . $engineno . '</td>
                             </tr>
                             <tr>
                             <th>Insurance Policy No</th>
-                            <td>' . $policy_no . '</td>
+                            <td>' . $insurance_no . '</td>
                             </tr>
                             <tr>
                             <th>Insurance Company</th>
@@ -227,21 +227,21 @@ if (isset($_POST['section'])) {
                             </tr>
                             <tr>
                             <th>Pickup Map Location</th>
-                            <td>' . $pickup_geo_location . '</td>
+                            <td>' . $pickuplocation_latlon . '</td>
                             </tr>
                             <tr>
                             <th>Delivery Map Location</th>
-                            <td>' . $delivery_geo_location . '</td>
+                            <td>' . $deliverylocation_latlon . '</td>
                             </tr>
                             <tr>
                             <th>Pickup Date & Time</th>
-                            <td>' . $pickup_date . '</td>
+                            <td>' . $pickuptime . '</td>
                             </tr>
                             </table>
                         </body>
                         </html>';
             $data = [
-                'admin_email' => 'bharathikinkwc@gmail.com',
+                // 'admin_email' => 'bharathikinkwc@gmail.com',
                 // 'admin_email' => 'sathish.jc@kartwheelconsulting.com',
                 'admin_subject' => $subject,
                 'admin_message' => $message,
@@ -317,8 +317,8 @@ if (isset($_POST['section'])) {
                         </html>';
 
             $data = [
-                'admin_email' => 'bharathikinkwc@gmail.com',
-                // 'admin_email' => 'sathish.jc@kartwheelconsulting.com',
+                // 'admin_email' => 'bharathikinkwc@gmail.com',
+                'admin_email' => 'sathish.jc@kartwheelconsulting.com',
                 'admin_subject' => $subject,
                 'admin_message' => $message
             ];

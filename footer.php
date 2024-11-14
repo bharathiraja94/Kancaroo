@@ -21,7 +21,7 @@
                 <p class="h6">About</p>
                 <a href="./about">About Kancaroo</a>
                 <a href="./branches">Branches</a>
-                <a href="./blog">Blog</a>
+                <!-- <a href="./blog">Blog</a> -->
                 <a href="./awards">Awards</a>
                 <a href="./contact">Contact us</a>
             </div>

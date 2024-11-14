@@ -184,6 +184,9 @@ h5,
     position: relative;
 
 }
+.error .go-btn{
+    align-self: center;
+}
 
 .Car-Logos img {
     max-width: 100%;
@@ -707,7 +710,7 @@ h5,
 
 .form-col {
     position: relative;
-    align-self: center;
+    align-self: baseline;
     margin-top: 2rem;
 }
 
@@ -959,8 +962,8 @@ input:-internal-autofill-selected {
 
 .full-form-modal {
     z-index: 2;
-    opacity: 1 !important;
-    display: block;
+    /* opacity: 1 !important;
+    display: block; */
 }
 
 .loading {
@@ -1161,6 +1164,11 @@ input:-internal-autofill-selected {
 
 .error {
     color: #D7000C;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+.form-control.error{
+    border: 1px solid #D7000C;
 }
 
 .contact-form-section {
